@@ -20,9 +20,9 @@ namespace PrintDialogX.PrintDialog
         public Window Owner { get; set; } = null;
 
         /// <summary>
-        /// Gets or sets the interpolation mode used to scale the preview. (Default: <see cref="System.Windows.Media.BitmapScalingMode.NearestNeighbor"/>)
+        /// Gets or sets the interpolation mode used to scale the preview. (Default: <see cref="System.Windows.Media.BitmapScalingMode.Unspecified"/>)
         /// </summary>
-        public System.Windows.Media.BitmapScalingMode InterpolationMode { get; set; } = System.Windows.Media.BitmapScalingMode.NearestNeighbor;
+        public System.Windows.Media.BitmapScalingMode InterpolationMode { get; set; } = System.Windows.Media.BitmapScalingMode.Unspecified;
 
         /// <summary>
         /// Gets or sets the title of the dialog.
